@@ -1,24 +1,21 @@
-###############################################################
-# Fake News Detector (Cloud Version – Logistic Regression Only)
-# Lightweight, Cloud-Friendly, No TensorFlow
-###############################################################
+
+# Fake News Detector 
+
 
 import streamlit as st
 import pickle
 import re
 import numpy as np
 
-###############################################################
 # PAGE CONFIG
-###############################################################
+
 st.set_page_config(
     page_title="Fake News Detector (Cloud)",
     layout="wide"
 )
 
-###############################################################
-# Apple-Style Hero Section
-###############################################################
+# Hero Section
+
 st.markdown("""
 <style>
 .hero {
